@@ -55,13 +55,13 @@ form .field{
   padding: 0 15px;
   border-radius: 0 5px 5px 0;
   border: 1px solid #444;
-  caret-color: #c2ced8;
+  caret-color: #171e24;
   background: linear-gradient(#333,#222);
 }
 input:focus{
-  color: #d7dbdf;
+  color: #e0e7ee;
   box-shadow: 0 0 5px rgba(241, 245, 252, 0.2),
-              inset 0 0 5px rgba(140, 146, 140, 0.1);
+              inset 0 0 5px rgba(0,255,0,.1);
   background: linear-gradient(#333933,#222922);
   animation: glow .8s ease-out infinite alternate;
 }
