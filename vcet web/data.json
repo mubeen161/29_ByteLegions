@@ -1,0 +1,104 @@
+{
+        "intents": [
+          {
+            "tag": "greeting",
+            "patterns": [
+              "Hi",
+              "Hey",
+              "How are you",
+              "Is anyone there?",
+              "Hello",
+              "I am",
+              "I'm",
+              "Good day"
+            ],
+            "responses": [
+              "Hello,\nI am Career Recommenation Bot here for your help .\nPLEASE ENTER YOUR ACADEMIC PERCENTAGE:  "
+            ]
+          },
+          {
+            "tag": "n",
+            "patterns": ["25","26","27","28","29","30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76","77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99","100"],
+            "responses": ["Enter Your Skills in List Form : "]
+         },
+          {
+            "tag": "DS",
+            "patterns": ["Data Science","data science","computer vision","cv","CV","Opencv", "Machine Learning","ml","ds","ai","machine learning","intelligence","deep learning","opencv", "Business Intelliegence","Artificial Intelligence","Data Mining","Deep Learning","Data Analytics","Big Data","NLP","R","PYTHON","Visualization","Pattern Recognition","Regonition","data","Pandas","Numpy","big mart","data science","ML","AI","DS","KNN","Kmean","Regression","prediction","DATA","numpy"],
+            "responses": ["It looks like , Data Science and Machine Learning is Your Field...!!!"
+              
+            ]
+          },
+          {
+            "tag": "Web",
+            "patterns": ["Website","web","website","web dev","flask","api","django","css","html","js","frontend","backend","full stack","stack ","data base","web deploy","bootstrap","Web Development","APIs","Web App","Flask","Django","CSS","HTML","Web","Java Script","JS","Frontend","Backend","Bootstrap","web Devoployment","Full Stack","HTTP","jQuery"],
+            "responses": ["It looks like , Web Developer is Your Field...!!!"]
+          },
+          {
+            "tag": "app",
+            "patterns": [
+              "Java","Android Studio","java","apps","iphone","ios","andrio","kotlin","swift","ios","buttons","phone","iphone","Swift","Xcode","Kotlin","Games","IOS","Android","Apps"
+      
+            ],
+            "responses": [
+              "It looks like ,App Developer is Your Field...!!!"
+            ]
+          },
+          {
+            "tag": "cyber",
+            "patterns": ["Cybernetics","safety","network","networking","blockchain","jetbrain","security","cyber","Cyber Network","Dark Web","Networking","IP Address","VPN","Firewall","Domain","Cloud Computing","Computing","Exploit","Malware","Virus","Randsom","SPY","Hacking","Browser","intenet","encrpytion","decryption","Blockchain","NFTs","Cypto currency","Protocol","Wifi","Internet","Monitoring"
+            ],
+            "responses": [
+              "It looks like ,Cbyer Security is Your Field...!!!"
+            ]
+          },
+          {
+            "tag": "Stw",
+            "patterns": ["Java","java","c","data base","system arc","Analytics","C","SQL","C##","C++","database","Dataset","System Architect","programming","Programming","System","Angile","Computer","Information","Design","DevOps","DBMS"],
+            "responses": ["It looks like , Software Engineering is Your Field...!!!"]
+          },
+          {
+            "tag": "DM",
+            "patterns": ["Marketing","Speaking","digital","market","public speaking","speech","confidence","presentating","media","insta","linkedin","twitter","Listen","Talk","Speech","Present","Sales","Product","SEO","Social Media","Socials","Trend","Content","Media","Market","Context","SEM","Industry","E-commerce","Rating","Conversation","Brand"],
+            "responses": ["It looks like , Digital Marketing is Your Field...!!!"]
+          },
+          {
+            "tag": "Rob",
+            "patterns": ["Robots","robot","automation","ai","robotic","sounds","machines","makers","mobility","Automation","Human Intelligence","Artificial Intelligence","Robotics","Mobility","Siri","Alexa","Google","Sensor","monitor","Manufacture","Monitoring","AMRs","Automated","Program"],
+            "responses": ["It looks like ,Robotics and Automation is Your Field...!!!"]
+          },
+          {
+            "tag": "edv",
+            "patterns": ["Entrepreneurship","new","money","easy","startup","Start Ups","Leadership","lead","Lead","Boss","Cheif","Profif","Business Intelliegence","Business","Venture","Self","Social","Company","Scalable","edventure","india","shark tank","business","hospitality","Owner"],
+            "responses": ["It looks like , Entrepreneurship is Your Field...!!!"]
+          },
+          {
+            "tag": "Auto",
+            "patterns": ["AutoCAD","MS","ms","Drawings","Objects","Basics","Ploting","Planning","Build","Design","Area"],
+            "responses": ["It looks like , AutoCAD is Your Field...!!!"]
+          },
+          {
+            "tag": "HR",
+            "patterns": ["Human","Interview","Team","Lead","Recruitment","Policies","Management","Talent","Applicant","Valuable","Recruitment","Engage","HR","Human Intelligence","Human Resource"],
+            "responses": ["It looks like , Human Resource is Your Field...!!!"]
+          },
+          {
+            "tag": "PM",
+            "patterns": ["Product","Monitoring","Product","Strategy","Tech","Develop","Guide","Goal","Analytics","Planning","Ploting","Degree"],
+            "responses": ["It looks like , Product Manager is Your Field...!!!"]
+          },
+          {
+            "tag": "Blogger",
+            "patterns": ["Writter","Traveller","Music","Nature","Place","Peace","Photographer","Picture","Movie","Films","Guitar","Calligraphy","Bold","Acting","Cinema"],
+            "responses": ["It looks like , Blogger is Your Field...!!!"]
+          },
+          {
+            "tag": "AR",
+            "patterns": ["AR","UI","UX","VR","MR","virtual","Virtual Reality","Mixed Reality","Augmented Reality","VR box","3D","Animation","Graphics","360","Haptics","Display"
+            ],
+            "responses": [
+              "It looks like , Virtual Reality and Augmented Reality is Your Field...!!!"
+            ]
+          }
+          
+        ]
+      }

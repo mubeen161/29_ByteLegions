@@ -1,0 +1,15 @@
+.gradient-custom {
+  background: #383fa8;
+  background: -webkit-linear-gradient(to bottom right, rgb(158, 164, 240), rgb(183, 173, 207));
+  background: linear-gradient(to bottom right, rgb(190, 180, 206), rgb(201, 185, 212))
+  }
+  
+  .card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+  }
+  .card-registration .select-arrow {
+  top: 13px;
+  }

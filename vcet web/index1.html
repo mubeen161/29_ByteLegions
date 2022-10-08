@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Resume Generator
+    </title>
+</head>
+<body>
+    <div class="container" id="cv-form">
+    <h1 class="text-center my-4">Resume Generator </h1>
+    <div class="row">
+    <div class="col-md-6">
+        <h3>
+            personal informatiom
+        </h3>
+        <div class="form group mt-3">
+            <label for="nameField">Full Name </label>
+            <input type="text" id="nameField" placeholder="Enter here" class="form-control">
+        </div>
+        <div class="form group mt-3">
+            <label for="contact">Phone Number </label>
+            <input type="text" id="contact" placeholder="Enter here" class="form-control">
+        </div>
+        <div class="form group mt-3">
+            <label for="Email">Email</label>
+            <input type="text" id="Email" placeholder="Enter here" class="form-control">
+        </div>
+        <div class="form group mt-3">
+            <label for="address"> Address </label>
+            <textarea
+                type="text"
+                id="address" 
+                placeholder="Enter here"
+                class="form-control"
+                rows="5"
+            ></textarea>
+        </div>
+        <div class="form group mt-3">
+            <label for="linkedin">Linkedin</label>
+            <input type="text" id="linkedin" placeholder="Enter here" class="form-control">
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form group mt-5">
+            <label for="objective">Objective</label>
+            <textarea
+                
+                id="objective" 
+                placeholder="Enter here"
+                class="form-control"
+                rows="5"
+            ></textarea>
+
+        </div>
+        <div class="form group mt-3" id="work">
+            <label for="work">Work Experience</label>
+            <textarea
+                
+                
+                placeholder="Enter here"
+                class="form-control weFeild"
+                rows="5"
+                columns="50"
+            ></textarea>
+            <div class="container text-center mt-3" id="weadd">
+                <button onclick="addnewexp()" class="btn btn-primary btn-sm">Add</button>
+            </div>
+
+        </div>
+        <div class="form group mt-2" id="acd">
+            <label for="acd">Academic Qualification</label>
+            <textarea
+                
+                id="acd" 
+                placeholder="Enter here"
+                class="form-control eqFeild"
+                rows="5"
+            ></textarea>
+            <div class="container text-center mt-3" id="acddd">
+                <button onclick="addnewacd()" class="btn btn-primary btn-sm">Add</button>
+            </div>
+
+        </div>
+        <div class="container text-center mt-4">
+            <button onclick="generateCV()" class="btn btn-primary btn-lg">Generate CV</button>
+        </div>
+    </div>
+    </div>
+ </div>
+ 
+    <div class="container" id="cv-template">
+        <div class="row">
+            <div class="col-md-4 text-center py-5 background"><!--1st column-->
+                <img src="https://isobarscience.com/wp-content/uploads/2020/09/default-profile-picture1.jpg" 
+                alt=""
+                class="img-fluid myimg"/>
+                <div class="container">
+                    <p id="nameT1">Mubeen</p>
+                    <p id="contactT">+919704135368</p>
+                    <p id="emailT">Mubeen1601@gmail.com</p>
+                    <p id ="addressT">Flat no 301,Plot 98,Bahaduryaarjung Colony ,Hyderabad,500008</p>
+                    <hr />
+                    <p><a id="linkedT" href ="#1" >https://www.linkedin.com/feed/</a></p>
+
+
+                    <!--<p>Flat no.301,Tolichowki,Hyderabad</p>
+                    <p>mubeen161</p>
+                    <p>I am currently an Intern at Delta Sigma Technologies. Motivated Individual with strong ethics committed to learning, developing skills and Team Contribution. Eager to learn new skills and techniques which helps me to grow and to adapt myself into any kind of situation. 
+
+                        Areas of Interest: Artificial Intelligence ,Data Science ,Deep Learning, Machine Learning, Computer Vision, Robotics.
+                        
+                        Tell me and I forget. Teach me and I remember. Involve me and I learn. ~Benjamin Franklin</p>
+                    <p>1.IEEE SMC Secretary
+                        2.IEEE RAS Jr Execom
+                        3.T-sig Jr Execom
+                        4. CSI MJCET Core Team 
+                        5. Orator's Club Core Team 
+
+                    </p>
+                    <p> </p>-->
+                </div>
+            </div>
+            <div class="col-md-8 py-5">
+                <h1 id="nameT2" class="text-center " style="font-weight :980">Mohammed Mubeen Uddin</h1>
+                <div class="card mt-4">
+                    <div class="card-header background"> <h3>Objective</h3></div>
+                    <div class="card-body">
+                        <p id="objectiveT" >I am currently an Intern at Delta Sigma Technologies. Motivated Individual with strong ethics committed to learning, developing skills and Team Contribution. Eager to learn new skills and techniques which helps me to grow and to adapt myself into any kind of situation. 
+
+                        Areas of Interest: Artificial Intelligence ,Data Science ,Deep Learning, Machine Learning, Computer Vision, Robotics.
+                        
+                        Tell me and I forget. "Teach me and I remember. Involve me and I learn." ~Benjamin Franklin</p></div>
+                    
+                   
+                </div>
+                <div class="card mt-4">
+                    <div class="card-header background"> <h3>Experience</h3></div>
+                    <div class="card-body">
+                        <ul id="weT">
+                            <li>1.IEEE SMC Secretary</li><li>
+                                2.IEEE RAS Jr Execom</li>
+                                <li>3.T-sig Jr Execom</li>
+                                <li>4. CSI MJCET Core Team</li>
+                                <li>5. Orator's Club Core Team</li>
+                        </ul>
+
+
+    
+                    </div>
+                    <div class="card mt-4">
+                        <div class="card-header background"> <h3>Academic Qualification</h3></div>
+                        <div class="card-body">
+                            <ul id="eqT">
+                                <li>1. B.E (CSE(AIDS)) </li><li>
+                                    2. Narayana junior college</li>
+                                    <li>3.Vidynaketan Academy</li>
+                            </ul>
+    
+    
+        
+                        </div>
+                    
+                    
+                </div>
+            </div class="container mt-3 text-center py-5">
+             <button onclick="printCV()" class="btn background">
+              print CV
+            </button>
+        </div>
+     
+ </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
